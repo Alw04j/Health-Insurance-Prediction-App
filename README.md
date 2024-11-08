@@ -8,7 +8,7 @@ A Streamlit-based web application that predicts health insurance charges based o
 - **Contribute Data**: Submit new data entries to improve model performance over time.
 
 ## 🚀 Demo
-You can access the live demo of the app here: [Live Demo Link](https://health-insurance-prediction-app-1.streamlit.app/) *(Replace this link once the app is deployed)*
+You can access the live demo of the app here: [Live Demo Link](https://health-insurance-prediction-app-1.streamlit.app/)
 
 ## 📂 Project Structure
 - `app.py`: Main script containing the Streamlit app code.
