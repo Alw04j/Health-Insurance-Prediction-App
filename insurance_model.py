@@ -83,7 +83,9 @@ def load_model(filename='insurance_model.pkl'):
         return pickle.load(file)
 
 # Example of training the model and saving it
-if __name__ == "__main__":
+
+    
+def main():
     # Load and split data
     (X_train, X_test, y_train, y_test), feature_names = load_data('health insurance.csv')
     print (len(X_train), len(X_test), len(y_train), len(y_test))
@@ -100,3 +102,6 @@ if __name__ == "__main__":
     #print(len(insurance_model.y_test))
     # Save the model
     save_model(insurance_model)
+
+if __name__ == "__main__":
+    main()

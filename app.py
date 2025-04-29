@@ -8,10 +8,11 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.graph_objects as go
-from insurance_model import InsuranceModel, load_model, save_model
+from insurance_model import InsuranceModel, load_model, save_model, main
 
 # Load the pre-trained insurance model
 insurance_model = load_model()
+
 
 # Set up the page with a custom title
 st.set_page_config(page_title="Insurance Prediction App", page_icon="💼", layout="wide")
